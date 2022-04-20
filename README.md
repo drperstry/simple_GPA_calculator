@@ -14,3 +14,10 @@ MATH101 4 C+
 MATH102 4 -
 <br>
 MATH102 3 D
+<br>
+<br>
+how to use the code:
+<br>
+course_records = Get_records_from_file(inputfilepath="courses_records.txt", GPA_weight=4)
+<br>
+print(Put_data_in_file(course_records=course_records, outputfile="Final_GPA.txt"))
